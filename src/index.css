@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  scrollbar-color: #e76d6d #f7a1a1; /* thumb color | track color */
+}
+
+Apply only to a specific scrollable element .scrollable-container {
+  overflow-y: auto;
+  scrollbar-color: #e76d6d #f7a1a1;
+}

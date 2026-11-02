@@ -1,0 +1,27 @@
+.cardWrapper {
+  width: calc(1242px / 5);
+  height: auto;
+  background-color: #f4caca;
+  padding: 12px 24px;
+  font-family: Roboto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.cardWrapper h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #222222;
+}
+
+.cardWrapper p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #7c7878;
+}
+
+.cardWrapper span {
+  font-size: 14px;
+  font-weight: 900;
+}
